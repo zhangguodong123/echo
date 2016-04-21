@@ -1,0 +1,18 @@
+package cn.com.cig.adsense.protobuf; 
+option java_package = "cn.com.cig.adsense.vo";
+option java_outer_classname = "UserBehavior";
+
+message MaterialBehaviorList {
+  repeated MaterialBehavior materialBehavior = 1;
+}
+
+message MaterialBehavior {
+  optional string materialId = 1;
+  optional int32 impressionPeriod = 2;
+  optional int32 clickPeriod = 3;
+  optional int64 lastImpression = 4 ;
+  optional int64 lastClick = 5 ;
+  optional string productId = 6;
+  optional string modelId = 7;
+}
+
