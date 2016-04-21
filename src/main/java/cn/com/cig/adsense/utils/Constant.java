@@ -174,7 +174,7 @@ public class Constant {
 	public static int VISITOR_FREQUENCY_SWITCH=1;//用户屏次监控  1:开启，0关闭
 	public static String FREQUENCY_KEY="DADPCDayUid";//redis 查询用户浏览信息标识。
 	
-	public static String CONSUL_URL="http://124.250.36.33:8500";
+	
 	public static final String ECHO_ROOT="striker/echo";
 	public static final String ECHO_CONFIG_KEY=ECHO_ROOT+"/config";//上线改回来
 	public static final String CASSANDRA_CONFIG_KEY=ECHO_ROOT+"/cassandra_cluster";
